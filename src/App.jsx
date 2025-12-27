@@ -1510,8 +1510,8 @@ const App = () => {
        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative z-10 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-6">掌握物聯網開發，<br /><span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">從這裡開始。</span></h1>
           <div className="mt-10 flex justify-center gap-4">
-            <button onClick={() => setCurrentPage('projects')} className="px-8 py-3 rounded-lg bg-gradient-to-r from-cyan-600 to-blue-600 text-white font-bold text-lg hover:shadow-lg transition-all flex items-center"><Zap className="w-5 h-5 mr-2" /> 開始實作專題</button>
             <button onClick={() => setCurrentPage('start')} className="px-8 py-3 rounded-lg border border-slate-600 text-slate-300 font-medium text-lg hover:bg-slate-800 transition-all flex items-center"><BookOpen className="w-5 h-5 mr-2" /> 快速入門</button>
+            <button onClick={() => setCurrentPage('projects')} className="px-8 py-3 rounded-lg bg-gradient-to-r from-cyan-600 to-blue-600 text-white font-bold text-lg hover:shadow-lg transition-all flex items-center"><Zap className="w-5 h-5 mr-2" /> 開始實作專題</button>
           </div>
        </div>
     </div>
